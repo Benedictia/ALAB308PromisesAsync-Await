@@ -40,18 +40,18 @@ async function getUserData(id) {
 
 // Setting timeout for the databases
 const getDb1 = (id) => new Promise(resolve => {
-    setTimeout(() => resolve({  }), Math.random() * 100);
+    setTimeout(() => resolve({  }), Math.random() , 100);
 });
 const getDb2 = (id) => new Promise(resolve => {
-    setTimeout(() => resolve({ }), Math.random() * 150);
+    setTimeout(() => resolve({ }), Math.random() ,150);
 });
 const getDb3 = (id) => new Promise(resolve => {
-    setTimeout(() => resolve({ address: {  } }), Math.random() * 300);
+    setTimeout(() => resolve({ address: {  } }), Math.random() , 300);
 });
 
 //  vault function
 const vault = (id) => new Promise(resolve => {
-    setTimeout(() => resolve({ }), Math.random() * 200);
+    setTimeout(() => resolve({ }), Math.random() ,200);
 });
 
 // central function
